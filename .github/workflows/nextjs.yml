@@ -13,5 +13,6 @@ jobs:
             run: npm install
           - name:  Build next js App
             run: npm run build
-          - name: Start Next js App
-            run: npm run start
+          - name: Report build success
+            status: success
+            description: Build successfully

@@ -14,5 +14,6 @@ jobs:
           - name:  Build next js App
             run: npm run build
           - name: Report build success
+            uses: actions/checkout@v2
             status: success
             description: Build successfully

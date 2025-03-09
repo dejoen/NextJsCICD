@@ -43,20 +43,14 @@ const Auth = () => {
       
       data:[20,25,20 ,26]
       }]} options={{
-      type:'area',
-      height:350,
-      zoom:{
-        enabled:false
-      },
+    
       dataLabels:{
         enabled:false
       },
       legend:{
         show:false
       },
-      toolbar:{
-        show:false
-      },
+      
       grid:{
         show:false
       },

@@ -1,7 +1,7 @@
 
 
 const data = async () =>{
- const t = await new Promise<String>((res,rej)=>{
+ const t = await new Promise<string>((res,rej)=>{
     setTimeout(()=>{
       res('loaded')
     },2000)

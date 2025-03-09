@@ -60,11 +60,7 @@ const Auth = () => {
         width:1
       },
 
-        column:{
-          lines:{
-            show:false
-          }
-        },
+        
       fill:{
         type:'gradient',
         gradient:{

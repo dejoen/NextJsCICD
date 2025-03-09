@@ -65,17 +65,7 @@ const Auth = () => {
         curve:'smooth',
         width:1
       },
-      xaxis:{
-          lines:{
-            show:false
-          },
-          labels:{
-            show:false
-          },
-          axisTicks:{
-            show:false
-          }
-        },
+
         column:{
           lines:{
             show:false

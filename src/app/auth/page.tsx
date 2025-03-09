@@ -1,6 +1,6 @@
 'use client'
 import {Suspense} from 'react'
-import Chart from 'react-apexcharts'
+//import Chart from 'react-apexcharts'
 
 
 //import User from './Users.tsx'
@@ -36,7 +36,7 @@ const Auth = () => {
     
     
     <div>
-    <Chart series={[{
+   {/* <Chart series={[{
       
       data:[18,20,18,25]
     },{
@@ -71,7 +71,7 @@ const Auth = () => {
         },
         
       }
-    }} type="area" height={350}/>
+    }} type="area" height={350}/>*/}
     </div>
    
     

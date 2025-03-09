@@ -1,6 +1,6 @@
 
 
-const data = async () =>{
+/*const data = async () =>{
  const t = await new Promise((res,_)=>{
     setTimeout(()=>{
       res('loaded')
@@ -29,4 +29,4 @@ const home = async() => {
   return <div>{result}</div>
 }
 
-export default User
+export default User*/

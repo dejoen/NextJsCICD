@@ -3,14 +3,14 @@ import {Suspense} from 'react'
 import Chart from 'react-apexcharts'
 
 
-import User from './Users.tsx'
+//import User from './Users.tsx'
 const Auth = () => {
   
   return <div>
     hello new screem
     
     <Suspense fallback={<p>Loading......</p>}>
-     <User/>
+  <div>ffffggg</div>
     </Suspense>
     
     <div className="relative grid  grid-cols-6 grid-rows-6 overflow-auto  h-[200px]  gap-2 border border-amber-100" >

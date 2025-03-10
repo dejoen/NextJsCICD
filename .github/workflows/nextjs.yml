@@ -9,18 +9,9 @@ jobs:
        steps:
           - name: Checkout code
             uses: actions/checkout@v2
-          - name: Report build started
-            uses: github-actions/checkout@v2
-            with:
-            status: pending
-            description: Building...
+       
             
           - name: Install dependecies
             run: npm install
           - name:  Build next js App
             run: npm run build
-          - name: Report build success
-            uses: github-actions/checkout@v2
-            with:
-            status: success
-            description: Build successfully
